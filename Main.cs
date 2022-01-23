@@ -2,7 +2,7 @@
 using MelonLoader;
 using UnityEngine;
 
-[assembly: MelonInfo(typeof(NoVRCPlus.Main), "NoVRCPlus", "0.1", "Boppr")]
+[assembly: MelonInfo(typeof(NoVRCPlus.Main), "NoVRCPlus", "0.1.1", "Boppr")]
 [assembly: MelonGame("VRChat", "VRChat")]
 
 namespace NoVRCPlus
@@ -19,6 +19,7 @@ namespace NoVRCPlus
 
             string[] names = new string[]
             {
+                "UserInterface/Canvas_QuickMenu(Clone)/Container/ThankYouCharacter",
                 "UserInterface/MenuContent/Backdrop/Header/Tabs/ViewPort/Content/VRC+PageTab",
                 "UserInterface/MenuContent/Screens/UserInfo/Buttons/RightSideButtons/RightUpperButtonColumn/GiftVRChatPlusButton",
                 "UserInterface/MenuContent/Screens/Avatar/Vertical Scroll View/Viewport/Content/Favorite Avatar List/GetMoreFavorites",
